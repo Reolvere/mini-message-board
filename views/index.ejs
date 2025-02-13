@@ -1,0 +1,5 @@
+<ul>
+    <%messages.map((message) => { %>
+        <li> <strong><%= message.user %></strong> <%= message.text %> <%= message.added %></li>
+    <% }) %>
+</ul>
